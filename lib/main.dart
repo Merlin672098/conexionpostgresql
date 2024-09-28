@@ -54,7 +54,7 @@ class _MyAppState extends State<MyApp> {
 
   Future<void> initOneSignal() async {
     OneSignal.Debug.setLogLevel(OSLogLevel.verbose);
-    OneSignal.initialize("3902ded8-a7f8-44be-a505-c63c62240a12");
+    OneSignal.initialize("API-KEY");
     OneSignal.Notifications.requestPermission(true);
   }
 
